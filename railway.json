@@ -1,0 +1,7 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "cron": {
+    "schedule": "*/30 13,14,15,16,17,18,19,20,21,22,23,0",
+    "command": "python runner.py"
+  }
+}
