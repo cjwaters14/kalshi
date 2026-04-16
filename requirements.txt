@@ -1,2 +1,4 @@
 selenium==4.16.0
 webdriver-manager==4.0.2
+cryptography
+requests
