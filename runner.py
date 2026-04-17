@@ -43,8 +43,8 @@ KALSHI_BASE_URL    = "https://api.elections.kalshi.com/trade-api/v2"
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 
-WEATHER_BUFFER    = 5      # °F from weather forecast to qualify (raised from 5)
-MARKET_BUFFER     = 5      # °F from market consensus to qualify (raised from 5)
+WEATHER_BUFFER    = 4      # °F from weather forecast to qualify (raised from 5)
+MARKET_BUFFER     = 4      # °F from market consensus to qualify (raised from 5)
 ASK_MIN           = 75     # min NO ask in cents
 ASK_MAX           = 99     # max NO ask in cents
 OUTLIER_MAX_DELTA = 10     # °F — drop weather source if this far from median
