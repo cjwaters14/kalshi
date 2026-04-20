@@ -86,8 +86,7 @@ CITIES = [
      "lat": 32.8998,  "lon": -97.0403, "tz": "America/Chicago",     "peak_hour": 15},
     {"name": "Minneapolis",             "kalshi_ticker": f"KXHIGHTMIN-{KALSHI_DATE}",
      "lat": 44.8820,  "lon": -93.2218, "tz": "America/Chicago",     "peak_hour": 15},
-    {"name": "Boston",                  "kalshi_ticker": f"KXHIGHTBOS-{KALSHI_DATE}",
-     "lat": 42.3631,  "lon": -71.0064, "tz": "America/New_York",    "peak_hour": 14},
+    
     {"name": "Las Vegas",               "kalshi_ticker": f"KXHIGHTLV-{KALSHI_DATE}",
      "lat": 36.0840,  "lon": -115.1537,"tz": "America/Los_Angeles", "peak_hour": 15},
     {"name": "Washington DC",           "kalshi_ticker": f"KXHIGHTDC-{KALSHI_DATE}",
