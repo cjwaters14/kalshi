@@ -53,7 +53,7 @@ MAX_MKT_SPREAD    = 10.0   # °F — skip city if market is too uncertain
 SKIP_WEAK_BETS    = True   # set False to include weak-confidence bets
 
 # ── POSITION CONCENTRATION LIMITS ────────────────────────────────────────────
-MAX_BETS_PER_CITY = 2      # never buy more than this many NO positions in one city
+MAX_BETS_PER_CITY = 4      # never buy more than this many NO positions in one city
                             # prevents buying both sides of the distribution
 PICK_ONE_SIDE     = True   # only bet on ranges above OR below consensus, not both
                             # e.g. if consensus is 72°F, only bet ABOVE or BELOW it
